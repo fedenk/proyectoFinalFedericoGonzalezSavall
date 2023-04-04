@@ -1,0 +1,77 @@
+.cards{
+    margin-top:30px;
+    margin-bottom:55px;
+    .card-index{
+        border: groove 2px #f68104;
+        margin-bottom: 30px;
+        padding-bottom:20px;
+        &:hover{
+            opacity: 50%;  
+        }  
+        .card-text{
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            color:#f69d04;
+        }
+    }
+}
+
+.card-row{
+    margin-top:30px;
+    margin-bottom:30px;
+    border-bottom: 1px dashed #f69d04;
+    .card-body{
+        margin-top:40px;
+        margin-bottom:40px;
+        .card-title{
+            text-align:center;
+            font-family: 'Bebas Neue', cursive;
+            font-size:300%;
+            padding:20px;
+            color:#f69d04;
+        }
+        .card-text{
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            color:#f69d04;
+        }
+     }
+     .card-var{
+        margin-top:60px;
+        .list-group-item{
+            background-color: black;
+            color:white;
+            font-family: 'Bebas Neue', cursive;
+            text-align: center;
+        }
+    }
+}
+
+.centrado{
+    text-align: center;
+.card-img-bottom{
+    width:50%;
+    margin-top:30px;
+    &:hover{
+        opacity:50%;
+    }
+}
+}
+
+.card-suc{
+    .card-img-top:hover{
+        opacity:50%;
+    }
+    .card-title{
+        text-align:center;
+        font-family: 'Bebas Neue', cursive;
+        font-size:300%;
+        padding:20px;
+        color:#f69d04;
+    }
+    .card-text-ubi{
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color:white;
+    }
+}

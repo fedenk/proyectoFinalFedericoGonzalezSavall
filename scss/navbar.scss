@@ -1,0 +1,48 @@
+.container-fluid{
+    padding: 20px;
+    background-color: #f69d04;
+    margin-bottom: 30px;
+    border:3px solid #f68104;
+
+    .nav-item{
+        margin-left: 80px;
+        margin-bottom:5px;
+
+        .nav-link{
+            font-size:140%;
+            font-family: 'Bebas Neue', cursive;
+            border-bottom:3px solid #f68104;
+            border-top:3px solid #f68104;
+            text-align:right;
+
+            &:hover{
+                border-bottom: 3px solid black;
+                border-top: 3px solid black;
+                -webkit-text-fill-color:white; 
+            }
+          }
+        }
+      }
+
+    nav{
+        div{
+            a{
+                img{
+                    border: 2px solid #f68104;
+                    border-radius: 20%;
+                    &:hover{
+                        border: 2px solid black;  
+                    }
+                }
+            }
+        }
+    }
+
+   .dropdown-menu{
+    border: 2px solid black;
+    background-color: #f69d04;
+    .dropdown-item{
+        text-align:center;
+        font-family: 'Bebas Neue', cursive;
+    }
+   } 
